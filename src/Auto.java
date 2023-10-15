@@ -46,4 +46,14 @@ public class Auto {
     public void setModello(String modello) {
         this.modello = modello;
     }
+
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "cilindrata=" + cilindrata +
+                ", targa='" + targa + '\'' +
+                ", marca='" + marca + '\'' +
+                ", modello='" + modello + '\'' +
+                '}';
+    }
 }
