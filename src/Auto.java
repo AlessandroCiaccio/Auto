@@ -3,10 +3,10 @@
 //Per questa classe saranno necessari i metodi accessori (getters e setters) ed un costruttore.
 //Nel main dichiarare un oggetto di tipo Auto.
 public class Auto {
-    public float cilindrata;
-    public String targa;
-    public String marca;
-    public String modello;
+    private float cilindrata;
+    private String targa;
+    private String marca;
+    private String modello;
 
     public Auto(float cilindrata, String targa, String marca, String modello) {
         this.cilindrata = cilindrata;
